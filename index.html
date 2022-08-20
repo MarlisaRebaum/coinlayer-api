@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>Current Crypto</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top p-5">
+        <a href="#" class="navbar-brand">Current Crypto</a>
+        <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+        ><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://coinlayer.com/" class="nav-link" target="_blank">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Help</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container text-dark pt-5 text-center">
+        <h1 class="p-4 mt-5 text-center">Current Crypto Prices</h1>
+    </div>
+    <div>
+        <section class="display-results"></section>
+    </div>
+    <div class="container pt-2 col-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Coin</th>
+                    <th scope="col">Code</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><img src="images/bitcoin-btc-logo.svg" alt="Bitcoin Logo" class="pr-5 logo-img"> Bitcoin</td>
+                    <td>BTC</td>
+                    <td class="BTC"></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><img src="images/ethereum-eth-logo.svg" alt="Ethereum Logo" class="pr-5 logo-img"> Ethereum</td>
+                    <td>ETH</td>
+                    <td class="ETH"></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><img src="images/tether-usdt-logo.svg" alt="Tether Logo" class="pr-5 logo-img"> Tether USD</td>
+                    <td>USDT</td>
+                    <td class="USDT"></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><img src="images/litecoin-ltc-logo.svg" alt="Litecoin Logo" class="pr-5 logo-img"> Litecoin</td>
+                    <td>LTC</td>
+                    <td class="LTC"></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td><img src="images/bnb-bnb-logo.svg" alt="Binance Coin Logo" class="pr-5 logo-img"> Binance Coin</td>
+                    <td>BNB</td>
+                    <td class="BNB"></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td><img src="images/stellar-xlm-logo.svg" alt="Stellar Logo" class="pr-5 logo-img"> Stellar</td>
+                    <td>XLM</td>
+                    <td class="XLM"></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td><img src="images/aion-aion-logo.svg" alt="Aion Logo" class="pr-5 logo-img"> Aion</td>
+                    <td>AION</td>
+                    <td class="AION"></td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td><img src="images/cardano-ada-logo.svg" alt="Cardano Logo" class="pr-5 logo-img"> Cardano</td>
+                    <td>ADA</td>
+                    <td class="ADA"></td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td><img src="images/monero-xmr-logo.svg" alt="Monero Logo" class="pr-5 logo-img"> Monero</td>
+                    <td>XMR</td>
+                    <td class="XMR"></td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td><img src="images/bitcoin-diamond-bcd-logo.svg" alt="Bitcoin Diamond Logo" class="pr-5 logo-img"> Bitcoin Diamond</td>
+                    <td>BCD</td>
+                    <td class="BCD"></td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td><img src="images/bitcoin-cash-bch-logo.svg" alt="Bitcoin Cash Logo" class="pr-5 logo-img"> Bitcoin Cash</td>
+                    <td>BCH</td>
+                    <td class="BCH"></td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <td><img src="images/decentraland-mana-logo.svg" alt="Decentraland Logo" class="pr-5 logo-img"> Decentraland</td>
+                    <td>MANA</td>
+                    <td class="MANA"></td>
+                </tr>
+                <tr>
+                    <th scope="row">13</th>
+                    <td><img src="images/smartcash-smart-logo.svg" alt="SmartCashLogo" class="pr-5 logo-img"> SmartCash</td>
+                    <td>SMART</td>
+                    <td class="SMART"></td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <td><img src="images/ruff-ruff-logo.svg" alt="Ruff Logo" class="pr-5 logo-img"> Ruff</td>
+                    <td>RUFF</td>
+                    <td class="RUFF"></td>
+                </tr>
+                <tr>
+                    <th scope="row">15</th>
+                    <td><img src="images/chainlink-link-logo.svg" alt="Chainlink Logo" class="pr-5 logo-img"> Chainlink</td>
+                    <td>LINK</td>
+                    <td class="LINK"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="text-center bg-dark text-light pt-5 mt-5" id="contact">
+        <section class="justify-content-center p-4 border-bottom">
+            <div>
+                <h4 class="text-uppercase fw-bold mb-4">Contact Us</h4>
+                <p><ion-icon name="location-outline"></ion-icon> Portland, OR 97777</p>
+                <p><ion-icon name="mail-outline"></ion-icon> info@currentcrypto.com</p>
+                <p><ion-icon name="call-outline"></ion-icon> (541) 382-3729</p>
+            </div>
+            <br>
+            <br>
+            <div class="text-center text-muted">
+                &copy All Rights Reserved 2022
+            </div>
+        </section>
+    </footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
