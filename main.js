@@ -1,5 +1,5 @@
 
-const baseURL = 'http://api.coinlayer.com/live?access_key=346541eebd3a880fc01f6aaaf97a8952';
+const baseURL = 'http://api.coinlayer.com/live?access_key=aa39072f804c095c83d3428418fa46bf';
 
 //const row = document.querySelector('.btc-rate');
 const tickers = ['BTC', 'ETH', 'USDT', 'LTC', 'BNB', 'XLM', 'AION', 'ADA', 'XMR', 'BCD', 'BCH', 'MANA', 'SMART', 'RUFF', 'LINK' ]
